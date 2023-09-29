@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavoriteFragment"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="Account"
+            android:fontFamily="@font/dtphudublack"
+            android:textSize="35sp"
+            android:padding="20dp"/>
+        <View
+            android:layout_width="130dp"
+            android:layout_height="0dp"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="180dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/user_account"
+        android:drawableEnd="@drawable/path_12"
+        android:fontFamily="@font/opensans_semi_condensed_bold"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/rectangle"
+
+        android:text="Profile"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/setting"
+        android:drawableEnd="@drawable/path_12"
+        android:fontFamily="@font/opensans_semi_condensed_bold"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/rectangle"
+
+        android:text="Setting"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/help"
+        android:drawableEnd="@drawable/path_12"
+        android:fontFamily="@font/opensans_semi_condensed_bold"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/rectangle"
+
+        android:text="Help"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ticket_icon"
+        android:drawableEnd="@drawable/path_12"
+        android:fontFamily="@font/opensans_semi_condensed_bold"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="30dp"
+        android:background="@drawable/rectangle"
+
+        android:text="Booking"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_nofill"
+        android:text="Log out"
+        android:fontFamily="@font/opensans_condensed_extrabold"/>
+
+</LinearLayout>
